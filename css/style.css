@@ -25,17 +25,23 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 60px;
   text-align: center;
+  font-weight: 700;
 }
 
-.input-container input {
+.input-container textarea {
+  color: black;
   width: 200px;
   border: 1px solid black;
   border-radius: 5px;
-  height: 20px;
+  height: 30px;
   font-size: 18px;
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  margin: 0 auto;
 }
 
 .input-container p {
-  font-size: 14px;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 10px;
+  text-decoration: underline;
 }
